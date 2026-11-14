@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "منصة عائلة العافية",
+  "short_name": "العافية",
+  "description": "المشجرة الحيّة لعائلة العافية: الأنساب والقرابة والختمات القرآنية وذكرى الراحلين",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./?src=app",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#2A1D10",
+  "theme_color": "#43301E",
+  "categories": ["lifestyle", "education", "social"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "ورد اليوم (ختمتي)", "short_name": "ختمتي", "url": "./?go=my&src=app", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]},
+    {"name": "الراحلون", "short_name": "الراحلون", "url": "./?go=dead&src=app", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]},
+    {"name": "استكشاف", "short_name": "استكشاف", "url": "./?go=explore&src=app", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}]}
+  ]
+}
