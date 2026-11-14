@@ -10,7 +10,7 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "any",
-  "background_color": "#2A1D10",
+  "background_color": "#40250F",
   "theme_color": "#43301E",
   "categories": ["lifestyle", "education", "social"],
   "icons": [
