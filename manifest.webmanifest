@@ -8,6 +8,8 @@
   "start_url": "./?src=app",
   "scope": "./",
   "display": "standalone",
+  "related_applications": [{"platform": "webapp", "url": "https://zainlukoil-hash.github.io/alafia-updates/manifest.webmanifest"}],
+  "prefer_related_applications": false,
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "any",
   "background_color": "#2A1D10",
