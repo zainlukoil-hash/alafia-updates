@@ -11,7 +11,7 @@
    · إشعار على الهاتف (للمنصة المثبّتة، وبعد أن يسمح بذلك المستخدم): تفحص الخلفية دورياً رقم آخر إصدار، فإن وُجد أحدث نزّلته وأشعرت. */
 var V = 'afia-app-5';
 var PAGE = './__page', META = './__meta', BLD = './__build', TOLD = './__told';
-var ICONS = ['manifest.webmanifest', 'icon-v9c-192.png', 'icon-v9c-512.png', 'icon-v9c-maskable-512.png', 'icon-v10-maskable-512.png', 'apple-touch-icon.png'];
+var ICONS = ['manifest.webmanifest', 'icon-v9c-192.png', 'icon-v9c-512.png', 'icon-v9c-maskable-512.png', 'icon-v11-maskable-512.png', 'apple-touch-icon.png'];
 var OFFLINE = '<meta charset="utf-8"><body style="font:18px system-ui;padding:2em;text-align:center;direction:rtl">لا اتصال بالإنترنت، ولم تُحفظ نسخة بعد. افتح المنصة مرة واحدة وأنت متصل.</body>';
 function sigOf(r) { return JSON.stringify({ e: r.headers.get('etag') || '', l: r.headers.get('last-modified') || '', n: r.headers.get('content-length') || '' }); }
 function keepPage(c, res) {
